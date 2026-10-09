@@ -1,14 +1,31 @@
-# Flavorful_android
+# Flavorful for Android
 
-## Flavorful
-Introducing every culinary student’s toolkit, learn worldly recipes. Android version 1.0
-This app contains a big library of homemade recipes and features an innovative search tool that allows you to find any popular food recipe of your choice. With a simple and easy to use interface, this application will display all your favorite recipes. One of our daring features includes Step by step videos.
+### A recipe app for culinary students: search recipes, save favourites, and cook step by step
 
-The purpose of Flavorful is to inform users of how many calories a dish contains, and it solves the problem of having to go to the store and forgetting to buy a special ingredient because it lists all the necessary ingredients you’ll need for a specific dish.
+The Android version of Flavorful, built in **2021** (April to July) alongside the [iOS version](https://github.com/SlarveFS/IPV). Search a large library of recipes, check the ingredients, save favourites to your account, and follow recipes step by step.
 
-Flavorful will be available on several devices including iPhone, iPads, and the Apple Watch. As already mentioned, Flavorful on the Apple Watch is a terrific way to make sure that you get everything you need at the store for that tasty meal you’re preparing right from your wrist.
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
 
-## Features:
-* One key feature of Flavorful is the ability to search for numerous recipes with a few key words.
-* Another feature is the ability to save recipes as favorites and come back to them later.
-* The last feature guides the user through a step-by-step process to help them prepare a wonderful new dish they've just learned.
+## Features
+
+- **Recipe search** by keyword
+- **Favourites** saved to your account and available later
+- **Step-by-step cooking guide** for each recipe
+- **Ingredients list**, so you don't forget anything at the store
+- **Sign up and log in** with Firebase Authentication
+
+## How it's built
+
+| Area | Details |
+|---|---|
+| Language and UI | Java, AndroidX, Navigation component (fragments for Discover, Details, Step by step, Favorites), ViewModels |
+| Networking | OkHttp for API requests, Picasso for images |
+| Backend | Firebase Authentication, Cloud Firestore, Firebase Storage |
+
+## Running it
+
+Open the `Flavorful` folder in Android Studio and run on an emulator or device. Firebase features need your own `google-services.json`.
+
+---
+
+Built by **Slarve Benoit** · [@SlarveFS](https://github.com/SlarveFS)
