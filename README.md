@@ -1,15 +1,15 @@
 # Flavorful for Android
 
-### A recipe app for culinary students: search recipes, save favourites, and cook step by step
+### A recipe app for culinary students: search recipes, save favorites, and cook step by step
 
-The Android version of Flavorful, built in **2021** (April to July) alongside the [iOS version](https://github.com/SlarveFS/IPV). Search a large library of recipes, check the ingredients, save favourites to your account, and follow recipes step by step.
+The Android version of Flavorful, built in **2021** (April to July) alongside the [iOS version](https://github.com/SlarveFS/IPV). Search a large library of recipes, check the ingredients, save favorites to your account, and follow recipes step by step.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
 
 ## Features
 
 - **Recipe search** by keyword
-- **Favourites** saved to your account and available later
+- **Favorites** saved to your account and available later
 - **Step-by-step cooking guide** for each recipe
 - **Ingredients list**, so you don't forget anything at the store
 - **Sign up and log in** with Firebase Authentication
